@@ -18,14 +18,18 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
+  font: helvetica;
   font-size: 16px;
+  /* background-color: #D3D3D3; */
+  overflow-x: hidden;
 }
 
 /* The hero image */
 
 .hero-image {
   /* The image used */
-  background-image: url("https://placekitten.com/g/800/500");
+  background-image: url("https://i.imgur.com/JnejIt5.gif");
+  display: block;
   /* Set a specific height */
   height: 50%;
   /* Position and center the image to scale nicely on all screens */
@@ -33,6 +37,8 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  box-shadow: 5px 5px 5px #888888;
+  margin-bottom: 40px;
 }
 
 /* Place text in the middle of the image */
@@ -53,14 +59,22 @@ h1 {
   font-size: 40px;
 }
 
+#headline {
+  font-size: 2em;
+  text-align: left;
+  margin-top: auto;
+}
+
+#byline {
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
 p {
   text-align: left;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-img {
-  padding-top: 100px;
 }
 
 figcaption {
@@ -116,129 +130,185 @@ div.modal div.inner {
 #ice1 {
   right: 22%;
   top: 50%;
-  background-color: #C0C0C0;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice2 {
   right: 70%;
   top: 50%;
-  background-color: #FFDAB9;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 #ice3 {
   right: 10%;
   top: 70%;
-  background-color: #32CD32;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice4 {
   right: 50%;
   top: 15%;
-  background-color: #5B92E5;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 #ice5 {
   right: 35%;
   top: 10%;
-  background-color: #FF0000;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice6 {
   right: 22%;
   top: 50%;
-  background-color: #C0C0C0;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 #ice7 {
   right: 70%;
   top: 50%;
-  background-color: #FFDAB9;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice8 {
   right: 10%;
   top: 70%;
-  background-color: #32CD32;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 #ice9 {
   right: 50%;
   top: 15%;
-  background-color: #5B92E5;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice10 {
   right: 35%;
   top: 10%;
-  background-color: #FF0000;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 #ice11 {
   right: 22%;
   top: 50%;
-  background-color: #C0C0C0;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice12 {
   right: 70%;
   top: 50%;
-  background-color: #FFDAB9;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 #ice13 {
   right: 10%;
   top: 70%;
-  background-color: #32CD32;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice14 {
   right: 50%;
   top: 15%;
-  background-color: #5B92E5;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 #ice15 {
   right: 35%;
   top: 10%;
-  background-color: #FF0000;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice16 {
   right: 22%;
   top: 50%;
-  background-color: #C0C0C0;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 #ice17 {
   right: 70%;
   top: 50%;
-  background-color: #FFDAB9;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice18 {
   right: 10%;
   top: 70%;
-  background-color: #32CD32;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 #ice19 {
   right: 50%;
   top: 15%;
-  background-color: #5B92E5;
+  background-color: #228B22;
+  opacity: .5;
 }
 
 #ice20 {
   right: 35%;
   top: 10%;
-  background-color: #FF0000;
+  background-color: #EE7600;
+  opacity: .5;
 }
 
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
-  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-}
-
-@media(min-width: 729px) {
-  /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
-}
+  /*  SAMSUNG SPECIFIC Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+  .container {
+    display: block;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  #headline {
+    font-size: 100px;
+  }
+  #byline {
+    margin-right: 700px;
+    margin-top: 5px;
+    font-size: 35px;
+  }
+  @media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+    .container {
+      display: block;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    figcaption {
+      max-width: 50%;
+      margin: 0 auto;
+    }
+    #byline {
+      margin-right: 550px;
+      margin-top: 5px;
+      font-size: 35px;
+    }
+    div.hotspot img {
+      width: 70%;
+      display: block;
+      margin: 0 auto;
+    }
+    #ice3 {
+      right: 30%;
+      top: 70%;
+      background-color: #228B22;
+      opacity: .5;
+    }
+  }
