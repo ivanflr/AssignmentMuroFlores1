@@ -5,7 +5,7 @@ $(document).ready(function () {
 		var clicked_spot = $(this);
 		var description = clicked_spot.data("description");
 
-		$(".modal").find(".inner").find("p").text(description);
+		$(".modal").find(".inner").find("p").html(description);
 		$(".modal").addClass("active");
 
 	});
