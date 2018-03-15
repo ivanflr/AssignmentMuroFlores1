@@ -28,7 +28,7 @@ html, body {
 
 .hero-image {
   /* The image used */
-  background-image: url("https://i.imgur.com/JnejIt5.gif");
+  background-image: url("https://i.imgur.com/B2R99XC.gif");
   display: block;
   /* Set a specific height */
   height: 50%;
@@ -63,12 +63,14 @@ h1 {
   font-size: 2em;
   text-align: left;
   margin-top: auto;
+  text-shadow: 2px 2px #ff0000;
 }
 
 #byline {
   margin-right: 10px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   font-size: 15px;
+  text-shadow: .5px .5px #ff0000;
 }
 
 p {
@@ -81,6 +83,8 @@ figcaption {
   padding-top: 5px;
   text-align: center;
   font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 div.hotspot {
@@ -125,6 +129,12 @@ div.modal div.inner {
   width: 50px;
   border-radius: 50%;
   background-color: #000000;
+}
+
+.container1 {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 #ice1 {
