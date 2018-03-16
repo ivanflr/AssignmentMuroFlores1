@@ -73,7 +73,7 @@ h1 {
   text-shadow: .5px .5px #ff0000;
 }
 
-.audio1{
+.audio1 {
   margin: 0 auto;
   padding-left: 10px;
 }
@@ -128,6 +128,10 @@ div.modal div.inner {
   padding: 1em;
 }
 
+div.last {
+  padding-bottom: 20px;
+}
+
 .spot {
   position: absolute;
   height: 50px;
@@ -145,142 +149,140 @@ div.modal div.inner {
 #ice1 {
   right: 16%;
   top: 50%;
-  background-color: #e2e2e2;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice2 {
   right: 72%;
-    top: 50%;
-    background-color: #e2e2e2;
-    opacity: .5;
+  top: 50%;
+  background-color: #ff0000;
+  opacity: .5;
 }
 
 #ice3 {
   right: 12%;
-   top: 70%;
-   background-color: #4495f8;
-   opacity: .5;
-
+  top: 70%;
+  background-color: #ff0000;
+  opacity: .5;
 }
 
 #ice4 {
   right: 50%;
   top: 15%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice5 {
   right: 35%;
   top: 10%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice6 {
   right: 42%;
-      top: 70%;
-      background-color: #EE7600;
-      opacity: .5;
+  top: 70%;
+  background-color: #ff0000;
+  opacity: .5;
 }
 
 #ice7 {
   right: 78%;
-    top: 70%;
-    background-color: #a92222;
-    opacity: .5;
+  top: 70%;
+  background-color: #ff0000;
+  opacity: .5;
 }
 
 #ice8 {
   right: 10%;
   top: 70%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice9 {
   right: 50%;
   top: 15%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice10 {
   right: 35%;
   top: 10%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice11 {
   right: 50%;
-top: 42%;
-background-color: #f3a666;
-opacity: .5;
+  top: 42%;
+  background-color: #ff0000;
+  opacity: .5;
 }
 
 #ice12 {
   right: 7%;
-    top: 57px;
-    background-color: #7392dc;
-    opacity: .5;
-
+  top: 57px;
+  background-color: #ff0000;
+  opacity: .5;
 }
 
 #ice13 {
   right: 7%;
-top: 66%;
-background-color: #7392dc;
-opacity: .5;
+  top: 66%;
+  background-color: #ff0000;
+  opacity: .5;
 }
 
 #ice14 {
   right: 50%;
   top: 15%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice15 {
   right: 35%;
   top: 10%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice16 {
   right: 18%;
-top: 50%;
-background-color: #ffffff;
-opacity: .5;
+  top: 50%;
+  background-color: #ff0000;
+  opacity: .5;
 }
 
 #ice17 {
   left: 17%;
   top: 50%;
-  background-color: #ffffff;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice18 {
   right: 44%;
-    top: 11%;
-    background-color: #ffffff;
-    opacity: .5;
+  top: 11%;
+  background-color: #ff0000;
+  opacity: .5;
 }
 
 #ice19 {
   right: 50%;
   top: 15%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice20 {
   right: 35%;
   top: 10%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
@@ -325,7 +327,18 @@ opacity: .5;
     #ice3 {
       right: 30%;
       top: 70%;
-      background-color: #228B22;
+      background-color: #ff0000;
       opacity: .5;
     }
-  }
+    #ice12 {
+      right: 17%;
+      top: 57px;
+      background-color: #ff0000;
+      opacity: .5;
+    }
+    #ice13 {
+      right: 17%;
+      top: 66%;
+      background-color: #ff0000;
+      opacity: .5;
+    }
