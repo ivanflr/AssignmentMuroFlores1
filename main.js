@@ -9,12 +9,11 @@ $(document).ready(function () {
 
 
 		$(".modal").find(".inner").find("p").text(description);
+		
 		$(".modal").find(".inner").find(".audio").html(audio);
 		$(".modal").addClass("active");
 
 
-
-			console.log(audio)
 	});
 	$(".close").on("click", function (e) {
 		e.preventDefault();
