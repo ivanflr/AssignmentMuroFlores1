@@ -28,7 +28,7 @@ html, body {
 
 .hero-image {
   /* The image used */
-  background-image: url("https://i.imgur.com/JnejIt5.gif");
+  background-image: url("https://i.imgur.com/B2R99XC.gif");
   display: block;
   /* Set a specific height */
   height: 50%;
@@ -63,12 +63,19 @@ h1 {
   font-size: 2em;
   text-align: left;
   margin-top: auto;
+  text-shadow: 2px 2px #ff0000;
 }
 
 #byline {
   margin-right: 10px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   font-size: 15px;
+  text-shadow: .5px .5px #ff0000;
+}
+
+.audio1 {
+  margin: 0 auto;
+  padding-left: 10px;
 }
 
 p {
@@ -81,6 +88,8 @@ figcaption {
   padding-top: 5px;
   text-align: center;
   font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 div.hotspot {
@@ -119,6 +128,10 @@ div.modal div.inner {
   padding: 1em;
 }
 
+div.last {
+  padding-bottom: 20px;
+}
+
 .spot {
   position: absolute;
   height: 50px;
@@ -127,143 +140,149 @@ div.modal div.inner {
   background-color: #000000;
 }
 
+.container1 {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
 #ice1 {
-  right: 22%;
+  right: 16%;
   top: 50%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice2 {
-  right: 70%;
+  right: 72%;
   top: 50%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice3 {
-  right: 10%;
+  right: 12%;
   top: 70%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice4 {
   right: 50%;
   top: 15%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice5 {
   right: 35%;
   top: 10%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice6 {
-  right: 22%;
-  top: 50%;
-  background-color: #EE7600;
+  right: 42%;
+  top: 70%;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice7 {
-  right: 70%;
-  top: 50%;
-  background-color: #228B22;
+  right: 78%;
+  top: 70%;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice8 {
   right: 10%;
   top: 70%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice9 {
   right: 50%;
   top: 15%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice10 {
   right: 35%;
   top: 10%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice11 {
-  right: 22%;
-  top: 50%;
-  background-color: #228B22;
+  right: 50%;
+  top: 42%;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice12 {
-  right: 70%;
-  top: 50%;
-  background-color: #EE7600;
+  right: 7%;
+  top: 57px;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice13 {
-  right: 10%;
-  top: 70%;
-  background-color: #228B22;
+  right: 7%;
+  top: 66%;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice14 {
   right: 50%;
   top: 15%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice15 {
   right: 35%;
   top: 10%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice16 {
-  right: 22%;
+  right: 18%;
   top: 50%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice17 {
-  right: 70%;
+  left: 17%;
   top: 50%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice18 {
-  right: 10%;
-  top: 70%;
-  background-color: #EE7600;
+  right: 44%;
+  top: 41%;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice19 {
   right: 50%;
   top: 15%;
-  background-color: #228B22;
+  background-color: #ff0000;
   opacity: .5;
 }
 
 #ice20 {
   right: 35%;
   top: 10%;
-  background-color: #EE7600;
+  background-color: #ff0000;
   opacity: .5;
 }
 
@@ -308,7 +327,18 @@ div.modal div.inner {
     #ice3 {
       right: 30%;
       top: 70%;
-      background-color: #228B22;
+      background-color: #ff0000;
       opacity: .5;
     }
-  }
+    #ice12 {
+      right: 17%;
+      top: 57px;
+      background-color: #ff0000;
+      opacity: .5;
+    }
+    #ice13 {
+      right: 17%;
+      top: 66%;
+      background-color: #ff0000;
+      opacity: .5;
+    }

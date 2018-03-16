@@ -4,9 +4,15 @@ $(document).ready(function () {
 
 		var clicked_spot = $(this);
 		var description = clicked_spot.data("description");
+		var audio = clicked_spot.data("audio");
+
+
 
 		$(".modal").find(".inner").find("p").text(description);
+		
+		$(".modal").find(".inner").find(".audio").html(audio);
 		$(".modal").addClass("active");
+
 
 	});
 	$(".close").on("click", function (e) {
