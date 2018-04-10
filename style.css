@@ -61,16 +61,23 @@ h1 {
 
 #headline {
   font-size: 2em;
-  text-align: left;
+  align-items: center;
   margin-top: auto;
   text-shadow: 2px 2px #ff0000;
 }
 
 #byline {
-  margin-right: 10px;
-  /* margin-top: 5px; */
+  align: center;
   font-size: 15px;
-  text-shadow: .5px .5px #ff0000;
+  text-shadow: .7px .7px #ff0000;
+}
+
+#subhead {
+  align-items: center;
+  /* margin-top: 5px; */
+  font-size: 40px;
+  text-shadow: 1px 1px #ff0000;
+
 }
 
 .audio1 {
@@ -144,6 +151,26 @@ div.last {
   display: block;
   margin: 0 auto;
   padding-bottom: 20px;
+}
+.pquote {
+   float: left;
+   width: 200px;
+   color: #030;
+
+   font-size: 25px;
+   line-height: 1;
+   font-style: italic;
+   padding: 10px;
+   margin-bottom: 40px;
+}
+
+blockquote {
+   margin: 0;
+}
+
+.pquote p:first-letter {
+   font-size: 40px;
+   font-weight: bold;
 }
 
 #ice1 {
@@ -305,6 +332,27 @@ div.last {
   }
   @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+    #headline {
+      padding-top: 10px;
+      font-size: 2em;
+      align-items: center;
+      margin-top: auto;
+      text-shadow: 2px 2px #ff0000;
+    }
+
+    #byline {
+      align: center;
+      font-size: 15px;
+      text-shadow: .7px .7px #ff0000;
+    }
+
+    #subhead {
+      align-items: center;
+      /* margin-top: 5px; */
+      font-size: 40px;
+      text-shadow: 1px 1px #ff0000;
+
+    }
     .container {
       display: block;
       max-width: 680px;
